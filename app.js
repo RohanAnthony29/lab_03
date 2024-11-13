@@ -18,6 +18,7 @@ function respondJson(req, res) {
   });
 }
 
+
 function respondEcho(req, res) {
   const { input = '' } = req.query;
 
